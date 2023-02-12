@@ -1,15 +1,14 @@
-/* eslint-disable @next/next/no-head-element */
-
-import "../src/styles/globals.scss";
+import React from "react";
+import "@styles/globals.scss"
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <html>
       <body>{children}</body>
     </html>
-  );
+  )
 }

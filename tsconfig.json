@@ -22,7 +22,10 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ]
+      ],
+      "@styles/*": ["./src/styles/*"],
+      "@root/*": ["./*"],
+      "@components": ["./components/index"]
     },
     "plugins": [
       {
